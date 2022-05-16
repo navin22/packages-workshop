@@ -15,7 +15,6 @@ RUN pip install -r requirements.txt
 # copy the content of the local src directory to the working directory
 COPY src/ .
 
-ENV FLASK_APP=server.py
 
 # command to run on container start
-CMD ["flask", "run", "--host", "0.0.0.0"]
+CMD ["python3", "server.py"]
