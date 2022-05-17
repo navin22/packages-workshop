@@ -4,7 +4,7 @@ on:
   pull_request:
  
 env:
-  IMAGE_NAME: paper-ring
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   pull_request:
