@@ -3,20 +3,22 @@
 
 In this workshop we will be learning on how to use GitHub Packages in your software development lifecycle.
 - Creating a package
-- Authenticating with the package Registry
-- Publishing a packages
-- Automating using actions
+- Authenticating with the package registry
+- Publishing a package
+- Automating using GitHub actions
 - Sharing packages
 
 ## Pre-requisites
-- Install python3 from [here](https://www.python.org/downloads/), if not installed.
-- Install docker from [here](https://docs.docker.com/engine/install/), if not installed.
+1. Set up Git and authenticate GitHub: [Instructions](https://docs.github.com/en/get-started/quickstart/set-up-git)
+2. Any IDE like VS Code.
+3. Install python3 from [here](https://www.python.org/downloads/), if not installed.
+4. Install docker from [here](https://docs.docker.com/engine/install/), if not installed.
 
 
 ## Steps
 
 Local Development
-1. Fork this repository
+1. Fork this repository & clone to your local machine
 2. Install requirements `pip3 install -r requirements.txt`
 2. Run the project `python3 src/server.py`
 2. Build the image locally `docker build --tag "workshop-constellation:pre-release" .`
