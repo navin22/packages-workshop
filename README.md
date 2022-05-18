@@ -33,7 +33,7 @@ Local Development
 3. `docker run ghcr.io/<orgname>/workshop-constellation:pre-release`
 
 Automating using Actions
-1. Create a workflow for pull_request event
+1. Create a workflow using the standard templates.
 2. Authentication using GITHUB_TOKEN
 3. Build & Publish using actions
 
