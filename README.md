@@ -24,7 +24,7 @@ Local Development
 2. Build the image locally `docker build --tag "workshop-constellation:pre-release" .`
 2. Run the image locally `docker run -p 9001:9001 workshop-constellation`
 2. Login to GHCR.io using PAT
-   1. [Create PAT]([url](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)) with `write:packages` scope
+   1. [Create PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `write:packages` scope
    2. Store PAT in the env variable `CRPAT`
    3. `echo $CRPAT | docker login ghcr.io --username <username> --password-stdin`
 3. `docker tag workshop-constellation:pre-release ghcr.io/<orgname>/workshop-constellation:pre-release`
